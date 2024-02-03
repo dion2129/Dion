@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="gambar/clipboard.ico" type="image/gif" sizes="16x16">    <title>home</title>
+    <title>about</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            height: 700px;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(41,41,99,1) 35%, rgba(9,85,100,1) 100%);        }
+        nav{
+            background-color: rgb(74, 68, 68);
+            text-align: right;
+            height: 40px;
+            padding-top: 20px;
+            /* margin-left: 13px; */
+        }
+        a{
+            padding-right: 30px ;
+            padding-left: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            color: orangered;
+            text-decoration: underline ;
+        }
+        
+        .bungkus{
+            display: flex;
+            justify-content: center;
+            margin-top: 40px ;
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+                100% {opacity: 1;}
+        }
+        .card{
+            filter: grayscale(100%);
+            border-style: solid;
+            border-color: rgb(92, 151, 142);
+            margin-top: 20px ;
+            border-radius: 9%;
+            width: 400px;
+            height: 500px;
+            background-color: rgb(47, 57, 171);
+            text-align: center;
+            box-shadow: 2px 0px 40px 9px rgb(211, 222, 57);
+            transition: 1s;
+            color: #dcff13;
+        }
+        .card:hover{
+            filter: grayscale(0%);
+            transition: 1s;
+            
+        }
+        .a1{
+            padding-top: 13px;
+            padding-bottom: 15px;
+            font-size: 40px;
+        }
+        .bio{
+            text-align: center;
+        }
+        .nama{
+            padding-top: 13px;
+            padding-bottom: 10px;
+            font-size: 25px;
+        }
+        .card h3{
+            padding-top: px;
+            padding-bottom: 10px;
+            font-size: 22px;
+        }
+        .card h4{
+            margin-bottom: 20px;
+        }
+        .foto{
+            width: 140px;
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html" >About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="bungkus">
+        <div class="card">
+            <h1 class="a1">ABOUT ME</h1>
+            <img src="https://myacpa.org/wp-content/uploads/2021/06/profile-blank.png" class="foto" alt="fotoku">
+            <h1 class="nama">MOH.DAFFA AL HAFIDZ J. MOONTI</h1>
+            <h3>NIM   : F521 23 023</h3>
+            <h3>KELAS : SI A</h3>
+            <h4>TANGGAL LAHIR : 21 OKTOBER 2005</h4>
+            <h4>CEWEK MASIH TIDAK PUNYA SAMA SEKALI </h4>
+        </div>
+    </div>
+    <p style="font-size: smaller; font-style: italic;">masih pemula bang</p>
+</body>
+</html>

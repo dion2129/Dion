@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="gambar/clipboard.ico" type="image/gif" sizes="16x16">    
+    <title>home</title>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            background-position: center;
+            background-size: cover;
+            height: 700px ;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(41,41,99,1) 35%, rgba(9,85,100,1) 100%);   
+        }
+        
+        nav{
+            background-color: rgb(74, 68, 68);
+            text-align: right;
+            height: 40px;
+            padding-top: 20px;
+            /* margin-left: 13px; */
+        }
+        a{
+            padding-right: 30px ;
+            padding-left: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+        }
+        a:hover{
+            color: orangered;
+            text-decoration: underline ;
+        }
+        .a p{
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            padding-top: 19px;
+            padding-bottom: 5px;
+        }
+        .a{
+            background-color: rgba(113, 113, 113, 0.4);
+            width: 700px;
+            height: 430px;
+            margin-left: 23%;
+            margin-top: 40px ;
+        }
+        .atas{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .t_fb{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .t_ig{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .email{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #akun{
+            /* text-decoration: solid; */
+            text-transform: none;
+        }
+        #akun:hover{
+            color: unset;
+            text-decoration: dashed;
+        }
+        #akun h4, .email h4{
+            margin-left: 10px;
+        }
+        #iform{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        #iform input{
+            margin-left: 10px;
+        }
+        #iform p{
+            font-size: medium;
+        }
+        #pesan{
+            font-size: medium;
+            display: flex;
+            margin-left: 56px;
+        }
+        #pesan textarea{
+            margin-left: 30px;
+            resize: none;
+        }
+        .kirim{
+            display: inline-block;
+            padding: 7px 15px;
+            margin-top: 20px;
+            margin-left: 80% ;
+            border: solid rgb(255, 255, 255);
+            border-radius: 2em;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            color: #080707;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .kirim:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="a">
+        <p>Silahkan hubungi saya melalui</p>
+        <div class="atas">
+            <div class="fb">
+                <a href="https://www.facebook.com/moh.daffa.7587/" class="t_fb" id="akun">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png" width="35px" height="35px" alt="Moh Daffa">
+                    <h4>Moh Daffa</h4>
+                </a>
+            </div>
+            <div class="ig">
+                <a href="https://www.instagram.com/moh.daffa212/" class="t_ig" id="akun">
+                    <img src="https://lh3.googleusercontent.com/proxy/34MujkGCbhfu0lq8MnVnntk28phKEYxj8zXefZ00PSRW6M0BMTEfIF6HS7EnszGGwTAH1DZtJXNjoszaAlbGX9SBVCD--43LACtLpzQqhdKQ9BRC9AeMeiKOWKEt5SoHwYuRIag9GP7-R8NzzxBFy9Zh6HNoQYSsI-nbEN4KYo08ha0DCFvafgS0Oug   " alt="moh.daffa212" width="35px" height="35px">
+                    <h4>moh.daffa212</h4>
+                </a>
+            </div>
+            <div class="email">
+                <img src="https://cdn-icons-png.flaticon.com/256/281/281769.png" alt="moh.dafa.a21@gmail.com" width="35px" height="35px">
+                <h4>moh.dafa.a21@gmail.com</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="bawah">
+            <form action="" method="post" class="form">
+                <div id="iform">
+                <p>
+                    <label>NAMA : </label>
+                    <input type="text" placeholder="Nama...">
+                </p>
+                <p>
+                    <label>EMAIL : </label>
+                    <input type="email" placeholder="...@gmail.com">
+                </p>
+                </div>
+                <p id="pesan">
+                    <label>PESAN : </label>
+                    <textarea cols="65" rows="10" placeholder="pesan anda..." ></textarea>
+                </p>
+                <input type="submit" value="kirim" class="kirim">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
