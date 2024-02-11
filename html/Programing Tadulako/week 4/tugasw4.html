@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Element</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        nav{
+            background: rgba(0,100 ,0,0.4);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 45px;
+        }
+        #icon{
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: rgb(6, 99, 6);
+        }
+        #icon img{
+            width: 30px;
+            height: 30px;
+            margin-right: 10px
+        }
+        nav li{
+            margin-left: 40px;
+        }
+        nav ul{
+            margin-right: 30px;
+            display: flex;
+            list-style-type: none;
+        }
+        nav ul a{
+            text-decoration: none;
+            color: #fff;
+        }
+        main{
+            padding: 20px;
+            margin: 0 auto;
+            width: 900px;
+            background-color: rgba(0, 0, 0,0.1);
+            font-family: Arial, sans-serif;
+        }
+        article h1 {
+            margin-bottom: 10px;
+        }
+        article h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        article p {
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: rgba(0, 100, 0, 0.3);
+            padding: 20px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            bottom: 0;
+            width: 100%;
+        }
+        article li{
+            margin-left: 29px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" id="icon">
+            <img src="https://cdn-icons-png.flaticon.com/128/5806/5806342.png" alt="logo">
+            <h1>Ayo Bersih</h1>
+        </a>
+        <ul>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#manfaat">Manfaat</a></li>
+            <li><a href="#pengaruh">Pengaruh</a></li>
+            <li><a href="#tindakan">Tindakan</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Selamat Datang di Ayo Bersih</h1>
+            <p>
+                Ayo Bersih adalah platform yang bertujuan untuk meningkatkan kesadaran akan pentingnya kebersihan lingkungan.
+                Kami menyediakan informasi, tips, dan sumber daya untuk membantu Anda memahami pentingnya menjaga kebersihan,
+                serta bagaimana Anda dapat berkontribusi untuk menciptakan lingkungan yang lebih bersih dan sehat.
+            </p>
+            <h2 id="tentang">Tentang</h2>
+            <p>
+                Ayo Bersih didirikan oleh sekelompok individu yang peduli terhadap lingkungan dan kesehatan masyarakat.
+                Kami berkomitmen untuk menyebarkan kesadaran akan pentingnya kebersihan dan berbagi informasi yang berguna
+                bagi masyarakat umum.
+            </p>
+            <p>
+                Bersama-sama, mari kita bekerja untuk menciptakan lingkungan yang lebih bersih, lebih sehat, dan lebih
+                berkelanjutan untuk masa depan kita dan generasi mendatang. Ayo Bersih!
+            </p>
+            <h2 id="tips">Tips untuk Meningkatkan Kebersihan Lingkungan</h2>
+            <ul>
+                <li>Buang sampah pada tempatnya.</li>
+                <li>Hindari menggunakan produk berbahan kimia berlebihan.</li>
+                <li>Gunakan barang daur ulang.</li>
+                <li>Bersihkan rumah secara teratur.</li>
+                <li>Ikut serta dalam kegiatan pembersihan lingkungan.</li>
+                <li>Gunakan transportasi umum atau kendaraan ramah lingkungan.</li>
+                <li>Libatkan diri dalam program penanaman pohon.</li>
+                <li>Pilih produk ramah lingkungan.</li>
+            </ul>
+            <h2 id="manfaat">Manfaat Kebersihan Lingkungan</h2>
+            <ul>
+                <li>Mencegah penyebaran penyakit.</li>
+                <li>Menjaga kelestarian alam.</li>
+                <li>Menciptakan lingkungan yang nyaman dan sehat untuk ditinggali.</li>
+                <li>Memperindah nilai estetika lingkungan.</li>
+                <li>Meningkatkan kualitas hidup.</li>
+                <li>Mengurangi dampak perubahan iklim.</li>
+                <li>Memperpanjang umur alam.</li>
+                <li>Menjaga keseimbangan ekosistem.</li>
+                <li>Mendorong pertumbuhan ekonomi lokal.</li>
+            </ul>
+            <h2 id="pengaruh">Pengaruh Kebersihan Lingkungan pada Kesehatan</h2>
+            <p>
+                Kebersihan lingkungan memiliki dampak yang signifikan pada kesehatan individu dan masyarakat secara keseluruhan.
+                Lingkungan yang bersih membantu mencegah penyebaran penyakit menular, seperti infeksi pernapasan, diare, dan
+                penyakit kulit.
+            </p>
+            <p>
+                Selain itu, kebersihan lingkungan juga berkontribusi pada kesehatan mental dan kesejahteraan psikologis.
+                Lingkungan yang bersih dan rapi dapat menciptakan suasana yang nyaman dan menenangkan, sehingga membantu
+                mengurangi stres dan meningkatkan kualitas hidup secara keseluruhan.
+            </p>
+            <h2 id="tindakan">Tindakan untuk Mempertahankan Kebersihan Lingkungan</h2>
+            <p>
+                Untuk menjaga kebersihan lingkungan, diperlukan partisipasi aktif dari semua pihak. Beberapa tindakan yang dapat
+                dilakukan untuk mempertahankan kebersihan lingkungan antara lain:
+            </p>
+            <ul>
+                <li>Partisipasi dalam kegiatan pembersihan lingkungan di lingkungan sekitar.</li>
+                <li>Penggunaan kantong belanjaan kain atau tas belanjaan yang dapat digunakan berulang kali.</li>
+                <li>Pemisahan sampah organik dan non-organik untuk mendukung program daur ulang.</li>
+                <li>Penggunaan produk ramah lingkungan, seperti sabun dan deterjen biodegradable.</li>
+                <li>Promosi gaya hidup berkelanjutan, seperti menggunakan energi terbarukan dan mengurangi konsumsi air.</li>
+                <li>Pendidikan dan sosialisasi tentang pentingnya kebersihan lingkungan kepada masyarakat.</li>
+                <li>Pengembangan infrastruktur publik yang mendukung kebersihan lingkungan, seperti tempat pembuangan sampah yang
+                tersedia dan sistem pengelolaan air limbah yang efisien.</li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        &copy; 2024 Ayo Bersih - All rights reserved
+    </footer>
+</body>
+</html>
